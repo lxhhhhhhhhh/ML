@@ -18,3 +18,10 @@ model = detr.DETR(backbone = backbone, num_classes = ...) # number of classes in
 ```
 
 如果ponet中的网络表现欠佳，也可以自由加载其他预训练网络作为backbone
+
+### 参考资料
+[DETR 论文](https://ai.meta.com/research/publications/end-to-end-object-detection-with-transformers/)
+
+[DETR GitHub repo](https://github.com/facebookresearch/detr?tab=readme-ov-file)
+
+[DETR HF model doc](https://github.com/facebookresearch/detr?tab=readme-ov-file)
